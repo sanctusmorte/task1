@@ -319,7 +319,7 @@ a:hover {
 	z-index: 2;
 	width: 378px;
 	height: 185px;
-	background: url(https://raw.githubusercontent.com/sanctusmorte/task11/master/img/advantage.jpg) no-repeat;
+	background: url(https://raw.githubusercontent.com/sanctusmorte/task1/master/img/advantage.jpg) no-repeat;
 	background-position: -153px -255px;
 }
 
@@ -374,7 +374,7 @@ a:hover {
 	z-index: 2;
 	width: 378px;
 	height: 263px;
-	background: url(https://raw.githubusercontent.com/sanctusmorte/task11/master/img/directory.png) no-repeat;
+	background: url(https://raw.githubusercontent.com/sanctusmorte/task1/master/img/directory.png) no-repeat;
 	background-position: -153px -255px;
 }
 
@@ -487,14 +487,14 @@ a:hover {
 .item_img_1 {
 	height: 190px;
 	width: 221px;
-	background: url(https://raw.githubusercontent.com/sanctusmorte/task11/master/img/lin1.png) no-repeat;
+	background: url(https://raw.githubusercontent.com/sanctusmorte/task1/master/img/lin1.png) no-repeat;
 	border-radius: 7px 7px 0px 0px;
 }
 
 .item_img_2 {
 	height: 190px;
 	width: 221px;
-	background: url(https://raw.githubusercontent.com/sanctusmorte/task11/master/img/lin2.png) no-repeat;
+	background: url(https://raw.githubusercontent.com/sanctusmorte/task1/master/img/lin2.png) no-repeat;
 	border-radius: 7px 7px 0px 0px;
 }
 
@@ -700,7 +700,7 @@ a:hover {
 }
 
 .img_map {
-	background: url(https://raw.githubusercontent.com/sanctusmorte/task11/master/img/map.png) no-repeat;
+	background: url(https://raw.githubusercontent.com/sanctusmorte/task1/master/img/map.png) no-repeat;
 	height: 549px;
 }
 
