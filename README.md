@@ -1,10 +1,10 @@
 Адаптивная верстка до 320px макета главной страницы LinTorg
 
 Стек:
-    Bootstrap 4
-    CSS3
-    HTML5
-    Jquery
+    1. Bootstrap 4
+    2. CSS3
+    3. HTML5
+    4. Jquery
 
 Просмотреть демо можно здесь:
 
