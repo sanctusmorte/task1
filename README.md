@@ -9,6 +9,6 @@
 
 Просмотреть демо можно здесь:
 
-    https://sanctusmorte.github.io/task1
+<https://sanctusmorte.github.io/task1>
 
 
