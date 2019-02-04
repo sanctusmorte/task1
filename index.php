@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Главная | 22 lintorg</title>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="/css/index.css" />
+	<link rel="stylesheet" href="/css/font_face.css" />
+	<link rel="stylesheet" href="/css/media.css" />
+
+</head>
+<body>
+
+	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal_inner">
+			<div class="icon_close">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg>
+			</div>
+			<div class="modal_inner_h1">Заказ звонка</div>
+			<div class="input_data_block">
+				<label class="input_data_label" for="input_data">Ваше имя</label>
+				<input type="text" class="input_data" autocomplete="off">
+				<label class="input_data_label" for="input_data">Телефон</label>
+				<input type="text" class="input_data" autocomplete="off" />
+			</div>
+			<div class="buttons">
+				<button class="button_sent">Отправить</button>
+				<div class="button_close">Закрыть</div>
+			</div>
+			<div class="terms">
+				<span>Нажимая на кнопку, вы соглашаетесь с <u><a href="#">политикой конфиденциальности</a></u></span>
+			</div>
+	    </div>
+	  </div>
+	</div>
+
+
+
+	<section class="header_top">
+		<div class="container">
+				<div id="header_top" class="row">
+					<div class="col-5 col-sm-5 col-md-3 col-lg-2 col-xl-2">
+						<div class="logo">
+							<span class="logo_1">Лин<span class="logo_2">Торг</span></span>
+						</div>						
+					</div>
+
+					<div class="col-3 col-sm-3 col-md-2 col-lg-1 col-xl-1">
+						<div class="link">
+							<a href="">О компании</a>
+						</div>
+						<button class="custom-toggler" type="button">
+							<img class="toggle_icon" src="/icons/menu.png">
+						</button>			
+						<div class="top_menu_container">
+							<div class="menu_list_container">О компании</div>
+							<div class="menu_list_container">Доставка</div>
+							<div class="menu_list_container">Реквезиты</div>
+							<div class="menu_list_container">Услуги</div>
+						</div>											
+					</div>
+					<div class="col-md-0 col-xl-1 d-none d-sm-none d-md-none d-lg-none d-xl-block">
+						<div class="link">
+							<a href="">Доставка</a>
+						</div>
+					</div>
+					<div class="col-md-0 col-xl-1 d-none d-sm-none d-md-none d-lg-none d-xl-block">
+						<div class="link">
+							<a href="">Реквезиты</a>
+						</div>
+					</div>
+					<div class="col-md-0 col-xl-1 d-none d-sm-none d-md-none d-lg-none d-xl-block">
+						<div class="link">
+							<a href="">Услуги</a>
+						</div>
+					</div>
+
+					<div class="col-2 col-sm-2 col-md-4 col-lg-3 col-xl-2">
+						<button class="button_call data-toggle="modal" data-target="#exampleModal">Заказать звонок</button>
+						<div class="phone_icon"><img src="/icons/phone.png"></div>						
+					</div>
+
+					<div class="col-2 col-sm-2 col-md-3 col-lg-3 col-xl-2">
+						<div class="phone">+7 (351) 776-84-01</div>
+						<div class="contacts_icon"><img src="/icons/contants.png"></div>
+						<div class="contancts_container">
+							<div class="contact_list_container">+7 (351) 776-84-01</div>
+							<div class="contact_list_container">89514515753@mail.ru</div>
+						</div>						
+					</div>
+					<div class="col-sm-2 col-md-2 col-lg-3 col-xl-2 d-none d-sm-none d-md-none d-lg-block">
+						<div class="email">89514515753@mail.ru</div>
+					</div>
+
+				</div>
+		</div>
+	</section>
+
+	<section class="header_bottom">
+		<div class="container">
+			<div id="header_bottom_1" class="row">
+				<div class="col-xl-1">
+					<div class="bottom_menu_item">
+						<div class="bottom_menu_title"><a href="#">Линолеум</a></div>
+						<img class="arrow_down" src="https://img.icons8.com/ios-glyphs/18/000000/expand-arrow.png">
+						<div class="linolium_container">
+							<div class="linolium_container_left">
+								<div class="linolium_container_left_title">Назначение</div>
+								<div class="linolium_container_left_text">Полукоммерческий</div>
+								<div class="linolium_container_left_text">Бытовой</div>
+							</div>
+							<div class="linolium_container_right">
+								<div class="linolium_container_right_title">Производитель</div>
+								<div class="linolium_container_right_text">Juteks</div>
+								<div class="linolium_container_right_text">Tarkett</div>
+								<div class="linolium_container_right_text">Комитекс Лин (Сыктывкар)</div>
+								<div class="linolium_container_right_text">Beauflor (Бельгия)</div>																
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-1">
+					<div class="bottom_menu_item">
+						<div class="bottom_menu_title_2"><a href="#">Ламинат</a></div>
+						<img class="arrow_down" src="https://img.icons8.com/ios-glyphs/18/000000/expand-arrow.png">
+
+						<div class="laminat_container">
+							<div class="laminat_container_left">
+								<div class="laminat_container_left_title">Класс ламината</div>
+								<div class="laminat_container_left_text">31 класс</div>
+								<div class="laminat_container_left_text">32 класс</div>
+								<div class="laminat_container_left_text">33 класс</div>
+							</div>
+							<div class="laminat_container_right">
+								<div class="laminat_container_right_title">Производитель</div>
+								<div class="lam_cont_1">
+									<div class="laminat_container_right_text">Aberhoff</div>
+									<div class="laminat_container_right_text">Ламинели</div>
+									<div class="laminat_container_right_text">Kastamonu (Россия))</div>
+									<div class="laminat_container_right_text">Tarkett (Россия/Германия)</div>
+									<div class="laminat_container_right_text">Синтерос (Россия)	</div>										
+								</div>
+								<div class="lam_cont_1">
+									<div class="laminat_container_right_text">Sommer (Россия)</div>
+									<div class="laminat_container_right_text">Quick step (Бельгия/Россия)</div>
+									<div class="laminat_container_right_text">Egger pro (Россия)</div>
+									<div class="laminat_container_right_text">Classen (Германия)</div>
+									<div class="laminat_container_right_text">Kronospan (Россия</div>										
+								</div>
+								<div class="lam_cont_1">
+								<div class="laminat_container_right_text">Kronopol</div>
+								<div class="laminat_container_right_text">Maxwood (Китай)</div>
+								<div class="laminat_container_right_text">Ideal (Бельгия)</div>
+								<div class="laminat_container_right_text">Ritter (Россия)</div>
+								<div class="laminat_container_right_text">Kronostar (Россия)</div>										
+								</div>														
+							</div>
+						</div>						
+					</div>
+				</div>
+
+				<div class="col-xl-2">
+					<div class="bottom_menu_item">
+						<div class="bottom_menu_title_3"><a href="#">Корпоративным клиентам</a></div>
+
+					</div>
+				</div>
+
+				<div class="col-xl-2">
+					<div class="bottom_menu_item">
+						<div class="bottom_menu_title_4"><a href="#">Акции</a></div>
+					</div>
+				</div>
+
+				<div class="col-xl-3">
+					<div id="icons_bottom_menu" class="hamburger">
+						<div class="hamburger_icon"><img class="img_hamburger_icon" src="https://img.icons8.com/ios-glyphs/24/000000/menu.png"></div>
+					</div>
+					<div class="hamburger_title"><a href="#">Сравнение</a></div>
+				</div>	
+				
+				<div class="col-xl-3">
+					<div class="hamburger">
+						<div class="hamburger_icon"><img class="img_hamburger_icon" src="/img/basket.png"></div>
+					</div>
+					<div class="hamburger_title"><a href="#">Корзина</a></div>					
+				</div>	
+			</div>
+			
+			<div id="header_bottom_2" class="row">
+				
+				<div class="col-auto col-sm-auto col-md-3 col-lg-5">
+						<button class="custom-toggler_2" type="button">
+							<img class="toggle_icon_2" src="/icons/menu.png">
+						</button>
+						<div class="bottom_menu_container">
+							<div id="extra_lin" class="menu_list_container">Линолиум <img class="arrow_down_bottom_menu" src="https://img.icons8.com/ios-glyphs/16/000000/expand-arrow.png">
+								<div class="linoleum_extra_menu">
+									<div class="linoleum_extra_menu_title">Назначение</div>
+									<div class="linoleum_extra_menu_item">Полукоммерческий</div>
+									<div class="linoleum_extra_menu_item">Бытовой</div>
+									<div class="linoleum_extra_menu_title">Производитель</div>
+									<div class="linoleum_extra_menu_item">Juteks</div>
+									<div class="linoleum_extra_menu_item">Tarkett</div>
+									<div class="linoleum_extra_menu_item">Комитекс Лин (Сыктывкар)</div>
+									<div class="linoleum_extra_menu_item">Beauflor (Бельгия)</div>																		
+								</div>								
+							</div>
+							<div id="extra_lam" class="menu_list_container">Ламинат <img class="arrow_down_bottom_menu" src="https://img.icons8.com/ios-glyphs/16/000000/expand-arrow.png">
+								<div class="laminat_extra_menu">
+									<div class="laminat_extra_menu_title">Класс ламината</div>
+									<div class="laminat_extra_menu_item">Полукоммерческий</div>
+									<div class="laminat_extra_menu_item">Бытовой</div>
+									<div class="laminat_extra_menu_item">Бытовой</div>
+									<div class="laminat_extra_menu_title">Производитель</div>
+									<div class="laminat_extra_menu_item">Juteks</div>
+									<div class="laminat_extra_menu_item">Tarkett</div>
+									<div class="laminat_extra_menu_item">Комитекс Лин (Сыктывкар)</div>
+									<div class="laminat_extra_menu_item">Beauflor (Бельгия)</div>
+									<div class="laminat_extra_menu_item">Juteks</div>
+									<div class="laminat_extra_menu_item">Tarkett</div>
+									<div class="laminat_extra_menu_item">Комитекс Лин (Сыктывкар)</div>
+									<div class="laminat_extra_menu_item">Beauflor (Бельгия)</div>
+									<div class="laminat_extra_menu_item">Juteks</div>
+									<div class="laminat_extra_menu_item">Tarkett</div>
+									<div class="laminat_extra_menu_item">Комитекс Лин (Сыктывкар)</div>
+									<div class="laminat_extra_menu_item">Beauflor (Бельгия)</div>																																				
+								</div>	
+							</div>
+							<div class="menu_list_container">Корпоративным клиентам</div>
+							<div class="menu_list_container">Акции</div>							
+						</div>					
+				</div>
+				<div class="col-auto col-sm-auto col-md-9 col-lg-7">
+					<div id="icons_bottom_menu" class="hamburger">
+						<div class="hamburger_icon"><img class="img_hamburger_icon" src="https://img.icons8.com/ios-glyphs/24/000000/menu.png"></div>
+					</div>
+					<div class="hamburger_title"><a href="#">Сравнение</a></div>
+
+					<div class="hamburger">
+						<div class="hamburger_icon"><img class="img_hamburger_icon" src="/img/basket.png"></div>
+					</div>
+					<div class="hamburger_title"><a href="#">Корзина</a></div>					
+				</div>	
+			</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="slidebar">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="slidebar_title">
+						<span class="logo_color">Лин</span>Торг — дисконт-центр напольных покрытий
+					</div>
+				</div>
+			</div>
+			<div id="slidebar" class="row">
+				<div class="col-lg-12 col-xl-8">
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img class="d-block w-100" src="/img/carousel/slide1.jpg" alt="First slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="/img/carousel/slide2.jpg" alt="Second slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="/img/carousel/slide3.jpg" alt="Third slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="/img/carousel/slide4.jpg" alt="Third slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="/img/carousel/slide5.jpg" alt="Third slide">
+					    </div>					    					    
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+				<div class="col-lg-auto col-xl-4">
+					<div class="advantage_container"><div class="advatage_container_text"><a href="#">При заказе<br> от 10 000 руб - доставка бесплатно</a></div></div>
+					<div class="directory_container"><div class="directory_container_text"><a href="#">Отдельный <u>каталог<br> для корпоративных<br>  клиентов</a></u></div></div>
+				</div>
+			</div>
+
+			<div id="slidebar_sm" class="row">
+				<div class="col-12">
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img class="d-block w-100" src="/img/carousel/slide1.jpg" alt="First slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="/img/carousel/slide2.jpg" alt="Second slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="/img/carousel/slide3.jpg" alt="Third slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="/img/carousel/slide4.jpg" alt="Third slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="/img/carousel/slide5.jpg" alt="Third slide">
+					    </div>					    					    
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>					
+				</div>
+			</div>
+			<div id="slidebar_adventg" class="row">
+				<div class="col-12">
+					<div class="advantage_container"><div class="advatage_container_text"><a href="#">При заказе<br> от 10 000 руб - доставка бесплатно</a></div></div>					
+				</div>
+				<div class="col-12">
+					<div class="directory_container"><div class="directory_container_text"><a href="#">Отдельный <u>каталог для корпоративных  клиентов</a></u></div></div>					
+				</div>
+			</div>
+
+			<div id="icons_line" class="row justify-content-center">
+				<div class="col-md-12 center-block col-xl-auto ">
+					<div class="icon_block">
+						<div class="icon_adv"><img src="/img/svg/guarantee.svg"></div>
+						<div class="icon_block_text">Официальная гарантия на товар от производителя</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-xl-auto">
+					<div class="icon_block_2">
+						<div class="icon_adv"><img src="/img/svg/catalog.svg"></div>
+						<div class="icon_block_text">В ассортименте более 130 видов ламината и линолеума</div>					
+					</div>
+				</div>
+				<div class="col-md-12 col-xl-auto">
+					<div class="icon_block">
+						<div class="icon_adv"><img src="/img/svg/parquet.svg"></div>
+						<div class="icon_block_text">Предоставляем услуги по укладке напольных покрытий</div>					
+					</div>
+				</div>
+				<div class="col-md-12 col-xl-auto ">
+					<div class="icon_block_2">
+						<div class="icon_adv"><img src="/img/svg/handshake.svg"></div>
+						<div class="icon_block_text">Работаем с организациями и физ. лицами</div>					
+					</div>
+				</div>
+				<div class="col-md-12 col-xl-auto">
+					<div class="icon_block">
+						<div class="icon_adv"><img src="/img/svg/box.svg"></div>
+						<div class="icon_block_text">Доставляем продукцию и поднимаем на этаж</div>					
+					</div>
+				</div>
+			</div>
+
+			<div id="icons_line_lg" class="row justify-content-center">
+				<div class="col-lg-3">
+					<div class="icon_block">
+						<div class="icon_adv"><img src="/img/svg/guarantee.svg"></div>
+						<div class="icon_block_text">Официальная гарантия на товар от производителя</div>					
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="icon_block">
+						<div class="icon_adv"><img src="/img/svg/catalog.svg"></div>
+						<div class="icon_block_text">В ассортименте более 130 видов ламината и линолеума</div>					
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="icon_block">
+						<div class="icon_adv"><img src="/img/svg/parquet.svg"></div>
+						<div class="icon_block_text">Предоставляем услуги по укладке напольных покрытий</div>					
+					</div>
+				</div>
+			</div>
+
+			<div id="icons_line_lg_2" class="row justify-content-center">
+				<div class="col-lg-auto">
+						<div class="icon_adv"><img src="/img/svg/handshake.svg"></div>
+						<div class="icon_block_text">Работаем с организациями и физ. лицами</div>					
+				</div>
+				<div class="col-lg-auto">
+						<div class="icon_adv"><img src="/img/svg/box.svg"></div>
+						<div class="icon_block_text">Доставляем продукцию и поднимаем на этаж</div>					
+				</div>
+			</div>
+	
+
+		</div>
+
+	</section>
+
+	<section class="stock_items">
+		<div class="container">
+			<div class="row">
+				<div class="col-7 col-sm-7 col-md-7 col-lg-6 col-xl-4">
+					<div class="stock_title"> <span class="stock_title_text stock_title_active">Товары по акции</span></div>
+				</div>
+				<div class="col-5 col-sm-5 col-md-5 col-lg-6 col-xl-8">
+					<div class="stock_new">Новинки</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="items_discounted">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-xl-auto">
+					<div class="item">
+						<div class="item_img_1"> <div class="item_plus_icon"><img class="plus_icon" src="/img/plus.png"></div></div>
+						<div class="item_title">Линолеум бытовой Idylle Nova Tango 3</div>
+						<div class="item_old_price">670 &#x20BD; c/м2</div>
+						<div class="item_price">610 &#x20BD; c/м2</div>
+						<div class="basket"><img class="basket_icon" src="/img/basket.png"></div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-xl-auto">
+					<div class="item">
+						<div class="item_img_2"> <div class="item_plus_icon"><img class="plus_icon" src="/img/plus.png"></div></div>
+						<div class="item_title">Линолеум бытовой Idylle Nova Tango 3</div>
+						<div class="item_old_price">670 &#x20BD; c/м2</div>
+						<div class="item_price">610 &#x20BD; c/м2</div>
+						<div class="basket"><img class="basket_icon" src="/img/basket.png"></div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-xl-auto">
+					<div class="item">
+						<div class="item_img_1"> <div class="item_plus_icon"><img class="plus_icon" src="/img/plus.png"></div></div>
+						<div class="item_title">Линолеум бытовой Idylle Nova Tango 3</div>
+						<div class="item_old_price">670 &#x20BD; c/м2</div>
+						<div class="item_price">610 &#x20BD; c/м2</div>
+						<div class="basket"><img class="basket_icon" src="/img/basket.png"></div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-xl-auto">
+					<div class="item">
+						<div class="item_img_2"> <div class="item_plus_icon"><img class="plus_icon" src="/img/plus.png"></div></div>
+						<div class="item_title">Линолеум бытовой Idylle Nova Tango 3</div>
+						<div class="item_old_price">670 &#x20BD; c/м2</div>
+						<div class="item_price">610 &#x20BD; c/м2</div>
+						<div class="basket"><img class="basket_icon" src="/img/basket.png"></div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-xl-auto">
+					<div class="item_2">
+						<div class="item_img_1"> <div class="item_plus_icon"><img class="plus_icon" src="/img/plus.png"></div></div>
+						<div class="item_title">Линолеум бытовой Idylle Nova Tango 3</div>
+						<div class="item_old_price">670 &#x20BD; c/м2</div>
+						<div class="item_price">610 &#x20BD; c/м2</div>
+						<div class="basket"><img class="basket_icon" src="/img/basket.png"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="items_2" class="row">
+				<div class="col-lg-12 col-xl-auto">
+					<div class="item">
+						<div class="item_img_1"> <div class="item_plus_icon"><img class="plus_icon" src="/img/plus.png"></div></div>
+						<div class="item_title">Линолеум бытовой Idylle Nova Tango 3</div>
+						<div class="item_old_price">670 &#x20BD; c/м2</div>
+						<div class="item_price">610 &#x20BD; c/м2</div>
+						<div class="basket"><img class="basket_icon" src="/img/basket.png"></div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-xl-auto">
+					<div class="item">
+						<div class="item_img_2"> <div class="item_plus_icon"><img class="plus_icon" src="/img/plus.png"></div></div>
+						<div class="item_title">Линолеум бытовой Idylle Nova Tango 3</div>
+						<div class="item_old_price">670 &#x20BD; c/м2</div>
+						<div class="item_price">610 &#x20BD; c/м2</div>
+						<div class="basket"><img class="basket_icon" src="/img/basket.png"></div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-xl-auto">
+					<div class="item">
+						<div class="item_img_1"> <div class="item_plus_icon"><img class="plus_icon" src="/img/plus.png"></div></div>
+						<div class="item_title">Линолеум бытовой Idylle Nova Tango 3</div>
+						<div class="item_old_price">670 &#x20BD; c/м2</div>
+						<div class="item_price">610 &#x20BD; c/м2</div>
+						<div class="basket"><img class="basket_icon" src="/img/basket.png"></div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-xl-auto">
+					<div class="item">
+						<div class="item_img_2"> <div class="item_plus_icon"><img class="plus_icon" src="/img/plus.png"></div></div>
+						<div class="item_title">Линолеум бытовой Idylle Nova Tango 3</div>
+						<div class="item_old_price">670 &#x20BD; c/м2</div>
+						<div class="item_price">610 &#x20BD; c/м2</div>
+						<div class="basket"><img class="basket_icon" src="/img/basket.png"></div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-xl-auto">
+					<div class="item_2">
+						<div class="item_img_1"> <div class="item_plus_icon"><img class="plus_icon" src="/img/plus.png"></div></div>
+						<div class="item_title">Линолеум бытовой Idylle Nova Tango 3</div>
+						<div class="item_old_price">670 &#x20BD; c/м2</div>
+						<div class="item_price">610 &#x20BD; c/м2</div>
+						<div class="basket"><img class="basket_icon" src="/img/basket.png"></div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</section>
+
+	<section class="items_new">
+		<div class="container">
+			<div class="row"></div>
+		</div>
+	</section>
+
+	<section class="popular_categories">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="popular_categories_title">Популярные категории</div>
+				</div>
+			</div>
+
+			<div id="popular_categories_items" class="row">
+				<div class="col-lg-12 col-xl-6"> 
+					<div class="popular_categories_item">
+						<div class="popular_categories_item_left">
+							<img class="img_linoleum" src="/img/linoleum.png">
+						</div>
+						<div class="popular_categories_item_right">
+							<div class="popular_categories_item_right_title"><a href="#">Линолиум</a></div>
+							<div class="popular_categories_item_right_text1"><a href="#">Бытовой (защитный слой до 0,4 мм)</a></div>
+							<div class="popular_categories_item_right_text2"><a href="#">Полукоммерческий (защитный слой до 0,4 - 0,7 мм) </a></div>
+						</div>
+					</div> 
+				</div>
+
+				<div class="col-lg-12 col-xl-6">
+				 	<div class="popular_categories_item_2">
+		
+					<div class="popular_categories_item">
+						<div class="popular_categories_item_left">
+							<img class="img_laminat" src="/img/laminat.png">
+						</div>
+						<div class="popular_categories_item_right">
+							<div class="popular_categories_item_right_title"><a href="#">Ламинат</a></div>
+							<div class="popular_categories_item_right_text1"><a href="#">31 класс  |  32 класс  |  33 класс</a></div>
+							<div class="popular_categories_item_right_text3"><a href="#">Толщина доски:  <u>7</u>  |  <u>8</u>  |  <u>9</u>  <u>9.5</u>  |  <u>10</u>  |  <u>12</u>  |  <u>14</u> </a></div>
+							<div class="popular_categories_item_right_text2"><a href="#"><a href="#"><u>С фаской</u></a></div>
+						</div>
+					</div> 
+								 		
+				 	</div>
+				 </div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sertificates">
+		<div class="container">
+			<div id="sertificates_title" class="row">
+				<div class="col-xl-12">			
+						<div class="sertificates_title">Качество нашей продукции<br> подтверждено сертификатами</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-xl-auto d-flex"><div class="sertificate_item"><img class="img_ser" src="/img/sertificates/ser1.png"></div> </div>
+				<div class="col-lg-12 col-xl-auto d-flex"><div class="sertificate_item"><img class="img_ser" src="/img/sertificates/ser2.png"></div></div>
+				<div class="col-lg-12 col-xl-auto d-flex"><div class="sertificate_item"><img class="img_ser" src="/img/sertificates/ser3.png"></div></div>
+				<div class="col-lg-12 col-xl-auto d-flex"><div class="sertificate_item"><img class="img_ser" src="/img/sertificates/ser4.png"></div></div>
+				<div class="col-lg-12 col-xl-auto d-flex"><div class="sertificate_item_2"><img class="img_ser" src="/img/sertificates/ser5.png"></div></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="lorem">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="lorem_title">Lorem ipsum</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-12">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe  rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br><br>
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. <br><br>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe  rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="map">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="img_map">
+						<div class="map_contants">
+							<div class="map_contacts_title">Адрес</div>
+							<div class="map_contacts_addres">г. Челябинск, проспект <br>Победы, 348, ст. 1</div>
+							<div class="map_contacts_title_2">Контакты</div>
+							<div class="map_contacts_contact">+7 (351) 776-84-01<br>89514515753@mail.ru</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="colauto">
+					<div class="footer_logo">
+						<div class="item_logo">
+							<span class="logo_1">Лин<span class="logo_2">Торг</span></span>
+						</div>
+						<div class="item_logo_contacts">
+							+7 (351) 776-84-01<br>89514515753@mail.ru
+						</div>
+						<div class="item_logo_button">Заказать звонок</div>
+						<div class="item_logo_text">© 2018 Линторг</div>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="footer_menu">
+						<div class="footer_title">Компания</div>
+						<div class="footer_text"><u>О компании</u></div>
+						<div class="footer_text"><u>Доставка</u></div>
+						<div class="footer_text"><u>Реквезиты</u></div>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="footer_menu">
+						<div class="footer_title"><u>Линолеум</u></div>
+						<div class="footer_text"><u>Бытовой</u></div>
+						<div class="footer_text"><u>Полукоммерческий</u></div>
+					</div>					
+				</div>
+				<div class="col-auto">
+					<div class="footer_menu">
+						<div class="footer_title"><u>Ламинат</u></div>
+						<div class="footer_text"><u>С фаской</u></div>
+						<div class="footer_text"><u>31 класс</u></div>
+						<div class="footer_text"><u>32 класс</u></div>
+						<div class="footer_text"><u>33 класс</u></div>
+					</div>	
+				</div>
+				<div class="col-auto">
+					<div class="footer_menu">
+						<div class="company_logo">
+							<img class="img_company_logo" src="/img/logo.png">
+						</div>
+						<div class="company_logo_text">Создание и продвижение <br>сайта</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="/bootstrap4/js/bootstrap.js"></script>
+
+	<!-- Optional JavaScript -->
+	<script src="/js/index.js"></script>
+
+</body>
+</html>
